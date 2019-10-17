@@ -264,6 +264,7 @@ class XBMCNFO(PlexAgent):
                 '{movie}-poster.jpg'.format(movie=movie_name_with_year),
                 '{movie}-poster.jpg'.format(movie=movie_name),
                 os.path.join(folder_path, 'poster.jpg'),
+                os.path.join(folder_path, 'thumb.png'),
             ])
             if is_dvd:
                 poster_names.append(os.path.join(folder_path_dvd, 'poster.jpg'))
