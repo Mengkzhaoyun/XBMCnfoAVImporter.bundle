@@ -381,14 +381,14 @@ class XBMCNFO(PlexAgent):
 
                 # Title
                 try:
-                    metadata.title = nfo_xml.xpath('title')[0].text.strip()
+                    metadata.title = nfo_xml.xpath('num')[0].text.strip()
                 except:
                     log.debug('ERROR: No <title> tag in {nfo}.'
                               ' Aborting!'.format(nfo=nfo_file))
                     return
                 # Sort Title
                 try:
-                    metadata.title_sort = nfo_xml.xpath('sorttitle')[0].text.strip()
+                    metadata.title_sort = nfo_xml.xpath('num')[0].text.strip()
                 except:
                     log.debug('No <sorttitle> tag in {nfo}.'.format(
                         nfo=nfo_file))
@@ -402,7 +402,7 @@ class XBMCNFO(PlexAgent):
                     pass
                 # Original Title
                 try:
-                    metadata.original_title = nfo_xml.xpath('originaltitle')[0].text.strip()
+                    metadata.original_title = nfo_xml.xpath('title')[0].text.strip()
                 except:
                     pass
                 # Content Rating
