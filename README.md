@@ -1,4 +1,4 @@
-XBMCnfoMoviesImporter.bundle-for-Plex
+XBMCnfoAVImporter.bundle-for-Plex
 =====================================
 ### Installation:
 It is recommended to install the [WebTools plugin](http://forums.plex.tv/discussion/288191/webtools-unsupported-appstore/p1).
