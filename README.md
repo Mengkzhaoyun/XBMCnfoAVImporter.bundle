@@ -10,14 +10,14 @@ renaming and moving it to the correct directory each time.
 
 After successfully installing WebTools please login and select the
 "Unsupported Appstore" Module. There you click on the "Agent" tab,
-scroll down and can now easily install the XBMCnfoMoviesImporter.
+scroll down and can now easily install the XBMCnfoAVImporter.
 
 ### Manual Installation:
 Not recommended, but possible if you know what you are doing.
 
-1. Download the [zipped bundle](https://github.com/gboudreau/XBMCnfoMoviesImporter.bundle/archive/master.zip) from github,
+1. Download the [zipped bundle](https://github.com/gboudreau/XBMCnfoAVImporter.bundle/archive/master.zip) from github,
 2. extract it,
-3. rename it to **XBMCnfoMoviesImporter.bundle**,
+3. rename it to **XBMCnfoAVImporter.bundle**,
 4. find the [Plex Media Server data directory](https://support.plex.tv/hc/en-us/articles/202915258-Where-is-the-Plex-Media-Server-data-directory-located)
 5. move the .bundle folder to the Plug-ins directory,
 6. restart plex and test,

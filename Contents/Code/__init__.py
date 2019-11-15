@@ -1,7 +1,7 @@
 # coding=utf-8
 
 """
-XBMCnfoMoviesImporter
+XBMCnfoAVImporter
 
 spec'd from:
  http://wiki.xbmc.org/index.php?title=Import_-_Export_Library#Video_nfo_Files
@@ -76,7 +76,7 @@ class XBMCNFO(PlexAgent):
 
     Uses XBMC nfo files as the metadata source for Plex Movies.
     """
-    name = 'XBMCnfoMoviesImporter'
+    name = 'XBMCnfoAVImporter'
     ver = '1.1-119-g5106699-225'
     primary_provider = True
     languages = [Locale.Language.NoLanguage]
