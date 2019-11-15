@@ -8,7 +8,7 @@ spec'd from:
 
 CREDITS:
     Original code author: .......... Harley Hooligan
-    Modified by: ................... Guillaume Boudreau
+    Modified by: ................... Mengk Zhaoyun
     Eden and Frodo compatibility: .. Jorge Amigo
     Cleanup and some extensions: ... SlrG
     Multipart filter idea: ......... diamondsw
